@@ -1,0 +1,105 @@
+/* Navbar */
+@media screen and (max-width: 992px) {
+    .nav-links .line::after
+    {
+        display: none;
+    }
+}
+/* End Of Navbar */
+/* Header */
+@media screen and (max-width: 768px) {
+    .header h1
+    {
+        font-size: 2rem !important;
+    }
+    .header
+    {
+        background-position: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header
+    {
+        background-position: center;
+    }
+}
+/* End Of Header */
+/* Services */
+@media screen and (max-width: 992px)
+{
+    .service-item:hover
+    {
+        border: 0;
+        transform: translateY(0);
+    }
+    .service-item:hover .service-info h3
+    {
+    color: black;
+    }
+}
+/* End Of Services */
+/* Portfolio */
+@media screen and (max-width: 992px)
+{
+    .portfolio-title h2::after , .services-title h2::after , .resume-title h2::after , .pricing-title h2::after , .contact-title h2::after
+    {
+        left: 45%;
+    }
+    .por-caption
+    {
+        width: 300px;
+        left: 17px;
+        top: 55%;
+    }
+    .por-icons
+    {
+        display: flex;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+    .nav-link
+    {
+        padding: 5px;
+    }
+    .portfolio-title h2::after , .services-title h2::after , .resume-title h2::after , .pricing-title h2::after , .contact-title h2::after
+    {
+        left: 41%;
+    }
+    .por-caption
+    {
+         left: 7%;
+         width: 310px;
+    }
+}
+/* End Of Portfolio */
+/* Questions */
+@media screen and (max-width: 992px)
+{
+.questions-left p
+    {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .one , .two , .three
+    {
+        height: 85px;
+       
+    }
+    .three:hover 
+    {
+        height: 230px;
+    }
+    .one:hover 
+    {
+    height: 160px;
+    }
+    .two:hover 
+    {
+    height: 200px;
+    }
+}
+/* End Of Questions */
+
